@@ -13,19 +13,14 @@ public class Main {
         // a <= b, a <= c
         if ( a <= b && a <= c ) {
             System.out.println(a);
-        }
+        } else
         // b <= a, b <= c
         if ( b <= a && b <= c ) {
             System.out.println(b);
-        }
+        } else
         // c <= a, c <= b 
         if ( c <= a && c <= b ) {
             System.out.println(c);
-        }
-
-        // a == b == c
-        if ( a == b && b == c ) {
-            System.out.println(a);
         }
 
     }
