@@ -12,7 +12,7 @@ public class Main {
         if ( n >= 80 ) {
             System.out.println("pass");
         } else {
-            System.out.println("O more score");
+            System.out.println( (100-n) + " more score" );
         }
     }
 }
