@@ -12,7 +12,7 @@ public class Main {
             System.out.println("book");
         } else if ( n >= 1000 ) {
             System.out.println("mask");
-        } else if ( n >= 1000 ) {
+        } else if ( n >= 500 ) {
             System.out.println("pen");
         } else {
             System.out.println("no");
