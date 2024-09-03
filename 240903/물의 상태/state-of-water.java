@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
 
         // 조건문
-        if ( n > 100 ) {
+        if ( n >= 100 ) {
             System.out.println("vapor");
         } else if ( n < 0 ) {
             System.out.println("ice");
