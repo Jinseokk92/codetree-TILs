@@ -22,5 +22,11 @@ public class Main {
         if ( c <= a && c <= b ) {
             System.out.println(c);
         }
+
+        // a == b == c
+        if ( a == b && b == c ) {
+            System.out.println(a);
+        }
+
     }
 }
