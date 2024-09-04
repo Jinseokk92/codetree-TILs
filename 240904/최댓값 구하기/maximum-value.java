@@ -20,5 +20,9 @@ public class Main {
         if ( c > a && b < c ) {
             System.out.println(c);
         }
+
+        if (a == b && a== c) {
+            System.out.println(a);
+        }
     }
 }
