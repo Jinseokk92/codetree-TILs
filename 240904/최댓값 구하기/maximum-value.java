@@ -9,20 +9,17 @@ public class Main {
         int c = sc.nextInt();
 
         // a가 최대값
-        if ( a > b && c < a ) {
+        if ( a >= b && a >= c ) {
             System.out.println(a);
         }
         // b가 최대값
-        if ( b > a && c < b ) {
+        if ( b >= a && b >= c ) {
             System.out.println(b);
         }
         // c가 최대값
-        if ( c > a && b < c ) {
+        if ( c >= a && c >=b ) {
             System.out.println(c);
         }
 
-        if (a == b && b== c) {
-            System.out.println(a);
-        }
     }
 }
