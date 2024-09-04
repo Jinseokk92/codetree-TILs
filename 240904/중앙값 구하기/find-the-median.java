@@ -21,12 +21,14 @@ public class Main {
         System.out.println(a);
       }
       // c < a < b
-    } else if ( a > c ) {
+    } else {
+      if ( a > c ) {
         System.out.println(a);
       // a < c < b
-    } else if ( b > c ) {
-        System.out.println(c);
-    }
+      } else if ( b > c ) {
+         System.out.println(c);
+      }
+    }    
 
     }
 }
