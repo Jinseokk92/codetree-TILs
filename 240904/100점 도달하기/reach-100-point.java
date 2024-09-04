@@ -12,15 +12,13 @@ public class Main {
                 System.out.print("A ");
             } else if ( n >= 80 ) {
                 System.out.print("B ");
-            } else if ( n >= 80 ) {
+            } else if ( n >= 70 ) {
                 System.out.print("C ");
-            } else if ( n >= 80 ) {
+            } else if ( n >= 60 ) {
                 System.out.print("D ");
             } else {
                 System.out.print("F ");
             }
-            
-            n++;
         }
     }
 }
