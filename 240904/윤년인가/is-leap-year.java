@@ -9,8 +9,16 @@ public class Main {
         // 윤년 vs 평년
         // 예외: 100의 배수고, 400으로 나누어 떨어지지않을 때는 평년
         if ( y % 4 == 0 ) {
-           System.out.println("true"); 
-        } else if ( y % 100 == 0 && y % 400 == 1 ) {
+            if ( y % 100 == 0 ) {
+                if ( y % 400 == 0 ) {
+                    System.out.println("true");
+                } else {
+                    System.out.println("false");
+                }
+            } else {
+                System.out.println("true");
+            }
+        } else {
             System.out.println("false");
         }
     }
