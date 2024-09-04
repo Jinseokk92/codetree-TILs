@@ -8,27 +8,21 @@ public class Main {
     int b = sc.nextInt();
     int c = sc.nextInt();
 
-    // a와 b를 비교
-    if ( a > b ) {
-      // a > b > c
-      if ( b > c ) {
+    // a가 중앙값
+    // c < a < b, b < a < c
+    if ( (a > b && a < c) || (a > c && a < b) ) {
+        System.out.println(a);
+    }  
+    // b가 중앙값
+    // a < b < c, c < b < a
+    else if ( (b > a && b < c) || (b > c && b < a) ) {
         System.out.println(b);
-      // b < c < a  
-      } else if ( a > c ) {
+    }  
+    // c가 중앙값
+    // a < c < b, b < c < a
+    else {
         System.out.println(c);
-      // c > a > b
-      } else {
-        System.out.println(a);
-      }
-      // c < a < b
-    } else {
-      if ( a > c ) {
-        System.out.println(a);
-      // a < c < b
-      } else if ( b > c ) {
-         System.out.println(c);
-      }
-    }    
+    }
 
     }
 }
