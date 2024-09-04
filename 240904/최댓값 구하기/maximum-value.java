@@ -21,7 +21,7 @@ public class Main {
             System.out.println(c);
         }
 
-        if (a == b && a== c) {
+        if (a == b && b== c) {
             System.out.println(a);
         }
     }
