@@ -8,19 +8,24 @@ public class Main {
     int b = sc.nextInt();
     int c = sc.nextInt();
 
-    // a, b, c가 서로 다른 수
+    // a와 b를 비교
     if ( a > b ) {
+      // a > b > c
       if ( b > c ) {
         System.out.println(b);
+      // b < c < a  
       } else if ( a > c ) {
         System.out.println(c);
+      // c > a > b
       } else {
         System.out.println(a);
       }
+      // c < a < b
     } else if ( a > c ) {
         System.out.println(a);
-    } else {
-        System.out.println(b);
+      // a < c < b
+    } else if ( b > c ) {
+        System.out.println(c);
     }
 
     }
