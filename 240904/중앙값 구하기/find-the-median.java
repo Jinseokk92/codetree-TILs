@@ -19,7 +19,9 @@ public class Main {
       }
     } else if ( a > c ) {
         System.out.println(a);
-    } 
+    } else {
+        System.out.println(b);
+    }
 
     }
 }
