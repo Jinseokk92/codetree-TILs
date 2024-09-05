@@ -9,7 +9,7 @@ public class Main {
 
         for ( int i = 0; i < 10; i++ ) {
             int num = sc.nextInt();
-            if ( i % 2 == 1 ) {
+            if ( num % 2 == 1 ) {
                 cnt++;
             } 
         }
