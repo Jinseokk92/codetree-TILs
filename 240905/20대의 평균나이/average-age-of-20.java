@@ -12,13 +12,14 @@ public class Main {
         while ( true ) {
             int n = sc.nextInt();
             
+            if ( n < 20 || n >= 30 ) {
+                break;
+            }
+ 
             //System.out.println(n);
             sum += n;
             cnt ++;
 
-            if ( n < 20 || n >= 30 ) {
-                break;
-            }
         }
 
         if ( cnt > 0 ) {
