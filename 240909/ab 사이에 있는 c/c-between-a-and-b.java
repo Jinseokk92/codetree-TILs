@@ -16,7 +16,7 @@ public class Main {
             }
         }
 
-        if ( satisfied = true ) {
+        if ( satisfied == true ) {
             System.out.print("YES");
         } else {
             System.out.print("NO");   
