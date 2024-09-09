@@ -8,11 +8,11 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        boolean valid = false;
+        boolean valid = true;
 
         for ( int i = a; i <= b; i++ ) {
-            if ( i % c != 0 ) {
-                valid = true;
+            if ( i % c == 0 ) {
+                valid = false;
             }
         }
 
