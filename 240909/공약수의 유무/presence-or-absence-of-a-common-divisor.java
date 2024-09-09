@@ -10,7 +10,7 @@ public class Main {
         boolean valid = false;
 
         for ( int i = a; i <= b; i++ ) {
-            if ( 1980 % i == 0 || 2880 % i == 0  ) {
+            if ( 1980 % i == 0 && 2880 % i == 0  ) {
                 valid = true;
             }
         }
