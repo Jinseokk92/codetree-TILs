@@ -11,9 +11,9 @@ public class Main {
           arr[i] = sc.nextInt();
         }
           // 2 4 5 7 8 10
-          for (int j = 0; j < n; j++) {
+          for (int j = n - 1; j >= 0; j--) {
             if ( arr[j] % 2 == 0 ) {
-                System.out.print( arr[n - j - 1] + " " );
+                System.out.print( arr[j] + " " );
 
             }
           }
