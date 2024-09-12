@@ -20,7 +20,7 @@ public class Main {
                 }
                 cnt ++;
             } 
-                System.out.print(cnt);
+                System.out.println(cnt);
 
             
         }
